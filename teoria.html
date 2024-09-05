@@ -1,0 +1,157 @@
+<!DOCTYPE html> <!-- INDICA AO NAVEGADOR QUE O DOCUMENTO É EM HTML-->
+<html lang="en"> 
+<head> 
+    <!--DEFINE A CODIFICAÇAO DE CARACTERES -->
+    <meta charset="UTF-8"> 
+    <!-- DEFINE A ESCALA-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Página inicial :3 </title>
+    <style> /*APLICANDO CSS INTERNO*/
+        /*SELETOR UNIVERSAL*/
+        *{ 
+            margin: 0;
+        }
+        /*SELETOR DE TIPO*/
+        p{
+            color: darkolivegreen;
+        }
+        /*SELETOR DE CLASSE*/
+        .paragrafo{
+            background-color: darkblue;
+            /* margin: 10px - APLICA 10PX EM TODAS AS MARGENS DO COMPONENTE */
+            /* margin: 10px 20px; - APLICA 10PX NA MARGEM SUPERIOR E 20PX NAS LATERAIS*/
+            /* margin: 10px 20px 30px 40px; - APLICA 10PX TOP, 20PX RIGHT, 30PX BOTTOM, E 40PX LEFT*/
+            margin-left: 20px; /*- MUDA UMA MARGEM ESPECIFICA*/
+            text-align: center; /* ALINHA O TEXTO AO CENTRO*/
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        .imagem{
+            width: 500px;
+            height: 100%;
+        }
+    </style> 
+</head>
+<body style="background-color:rgb(255, 238, 181)"> <!-- APLICANDO CSS INLINE-->
+    Olá mundo!
+    <!-- NÍVEIS-->
+    <h1>Cabeçalho de nível 1</h1> <!-- É RECOMENDADO USAR APENAS UM ELEMENTO H1-->
+    <h2>Cabeçalho de nível 2</h2> <!-- LEMBRANDO QUE NIVEIS H NAO DEFINEM TAMANHO, MAS SIM HIERARQUIA!! -->
+    <h3>Cabeçalho de nível 3</h3>
+    <h4>Cabeçalho de nível 4</h4>
+    <h5>Cabeçalho de nível 5</h5>
+    <h6>Cabeçalho de nível 6</h6> 
+    <hr> <!--INSERE UMA LINHA NA HORIZONTAL (ESSA TAG NAO FECHA)-->
+    <p> Um parágrafo</p> <!-- INSERE UM NOVO PARÁGRAFO -->
+    <p> Outro parágrafo ♫</p> 
+    <hr>
+    <p>Texto muito grande, <br> que eu desejo <br> quebrar a linha. </p>
+    <hr>
+
+    <p><a href="https://spacehey.com">Myspace</a>  <!-- INSERINDO LINK PARA UMA PAG (QUE ABRE NA MESMA ABA)  --> <br>
+    <a href="https://web.archive.org/web/20051220153326/http://reviews.cnet.com/Games/2001-9020_7-0.html" target="_blank">Site legal de coisa eletrônica</a>  <!-- INSERINDO LINK PARA UMA PAG (QUE ABRE EM OUTRA ABA)  --> <br></p>
+    <hr>
+
+    <!-- TAG IMG COM ATRIBUTO SRC ONDE É COLOCADO O CAMINHO. PODE SER UM ENDEREÇO DE LINK OU UMA FOTO LOCAL -->
+    <p><img src="https://i.pinimg.com/736x/8b/49/0c/8b490c56702df173506e11f09b8fe2c0.jpg" width="200" height="100%"></p> Lule Mulalalabalasgo e BoB Ebroconja tocamdo trompete &lt;3
+    <p><img src="./img/kirknaotankando.gif"></p> Eu quando fico 2 minuto sem ver ela
+    <hr>
+
+    <!-- PARAGRAFO COM CARACTERES DIFERENTES -->
+    <p>Alguns caracteres : &reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; 🥺</p>
+
+    <!-- FORMATAR TEXTO -->
+    <b>Texto em negrito</b> <br>
+    <strong>Texto importante</strong> <!--PARECEM IGUAIS MAS NAO SAO--> <br>
+    <i>Texto em itálico</i> <br>
+    <em>Texto enfatizado</em> <br>
+    <mark>Texto marcado</mark> <br>
+    <p> Texto <small> miúdo</small></p>
+    <del>Texto tachado</del> <br>
+    <ins>Texto inserido</ins> <br>
+    <u>Texto sublinhado</u>
+    <p>Texto<sub>subescrito</sub></p>
+    <p>Texto<sup>superior</sup></p>
+    <h1><i> h1 itálico</i></h1>
+    <hr>
+
+    <!-- APLICANDO LINK EM UMA IMAGEM -->
+    <a href="https://www.sesisp.org.br/" target="_blank"><img src="/img/sesi-logo.png" width="300"></a>
+    <hr>
+
+    <!-- APLICANDO VIDEO INCORPORADO -->
+    <p style="font-size: xx-large ">Vídeos do Youtube :P</p> <!-- APLICANDO CSS INLINE PARA AUMENTAR A FONTE -->
+    <iframe width="700" height="393" src="https://www.youtube.com/embed/g8J25aXzNDY?list=PLcIB5BKPugSNCUAHTCf13uv1mfGU1WLUf" title="Steam Powered Giraffe - Honeybee (Apartment Sessions)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <iframe width="700" height="393" src="https://www.youtube.com/embed/c1sGXWIA8p8?list=LL" title="How to transform Windows 11 into Windows 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <iframe width="700" height="393" src="https://www.youtube.com/embed/OJrWg98pXq4?list=LL" title="Geni e o Zepelim - Letícia Sabatella (Chico Buarque)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <iframe width="700" height="393" src="https://www.youtube.com/embed/LO3rkDdytWg?list=LL" title="The Striped Sweater Song! 🎶  | SpongeBob" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+
+    <p class="paragrafo"> <!-- APLICANDO CSS INTERNO -->
+        <img class="imagem" src="/img/boraalmocarinrainbows.jpg">
+        Oiii
+    </p>
+    <br>
+    <hr>
+    <!-- FORMAS DE APLICAR O CSS -->
+    <!-- CSS inline: aplicado em uma linha específica -->
+    <!-- CSS interno: aplicado dentro do arquivo .html é colocada uma tag <style> dentro da sessão <head> -->
+    <!-- CSS externo: é criado um arquivo .css separado, que é apenas linkado no arquivo .html -->
+
+    <h1 style=" margin-left: 10px;">Listas</h1>
+    <!-- LISTA ORDENADA -->
+    <ol>
+        <li>They are one person</li>
+        <li>They are two alone</li>
+        <li>They are three together</li>
+        <li>They are four each other... ♫</li>
+    </ol>
+    <br><hr><br>
+    <!-- LISTA ORDENADA COM NUMERO ROMANO MINUSCULO -->
+    <ol type="i"> <!-- SE QUISER MAIUSCULO, DIGITAR type="I"-->
+        <li>Acordar</li>
+        <li>Lembrar da cena "Give me your hand" "And my heart, too" de Julio César</li>
+        <li>Chorar como um romano 👊</li>
+    </ol>
+    <br><hr><br>
+    <!-- LISTA ORDENADA COM LETRA MINUSCULA -->
+    <ol type="a"> <!-- SE QUISER MAIUSCULO, DIGITAR type="A"-->
+        <li>Acordar</li>
+        <li>Cair da cama</li>
+        <li>Passar um pente pelo meu cabelo</li>
+        <li>Descer as escadas</li>
+        <li>Tomar um café</li>
+        <li>Perceber que estou atrasado</li>
+    </ol>
+    <br><hr><br>
+    <!-- LISTA NAO ORDENADA -->
+    <ul>
+        <li>Amo a vida</li>
+        <li>Amo minha família</li>
+        <li>Amo minha matesprit. CSS do meu HTML.</li>
+    </ul>
+    <br><hr><br>
+    <!-- LISTA DENTRO DE LISTA -->
+    <ul>
+        <li> Carnes
+            <ul>
+                <li>Picanha do luly</li>
+                <li>Carne de cachorro</li>
+                <li>Cupim</li>
+                <li>Wagyu A5</li>
+            </ul>
+        </li>
+    </ul>
+    <br><hr><br>
+    <!-- LISTA PREDEFINIDA | OBS: NAO FICOU IDENTADA POIS DEFINIMOS A MARGEM COMO 0 NO COMEÇO-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem programação</dd>
+    </dl>
+
+</body>
+</html>
+
