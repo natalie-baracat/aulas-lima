@@ -1,0 +1,46 @@
+
+/*SELETOR UNIVERSAL*/
+*{ 
+    margin: 0;
+}
+/*SELETOR DE TIPO*/
+p{
+    color: darkolivegreen;
+}
+/*SELETOR DE CLASSE*/
+.paragrafo{
+    background-color: darkblue;
+    /* margin: 10px - APLICA 10PX EM TODAS AS MARGENS DO COMPONENTE */
+    /* margin: 10px 20px; - APLICA 10PX NA MARGEM SUPERIOR E 20PX NAS LATERAIS*/
+    /* margin: 10px 20px 30px 40px; - APLICA 10PX TOP, 20PX RIGHT, 30PX BOTTOM, E 40PX LEFT*/
+    margin-left: 20px; /*- MUDA UMA MARGEM ESPECIFICA*/
+    text-align: center; /* ALINHA O TEXTO AO CENTRO*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.imagem{
+    width: 500px;
+    height: 100%;
+}
+
+/***************************************************/
+
+body{
+    background-color:rgb(255, 238, 181)
+}
+
+.tabela{
+    border-collapse: collapse;/* REMOVE OS ESPAÇOS DA TABELA */
+    width: 100%;
+}
+
+.cabecalho, .celula{
+    border: 2px dashed #360370; /* CONFIGURA O FORMATO DA BORDA ESPESSURA, TIPO E COR */
+    padding: 10px;
+    text-align: left;
+    color: rgb(162, 11, 11);
+    
+}
+
+.cabecalho2{
+    color:#f3ec17;
+}

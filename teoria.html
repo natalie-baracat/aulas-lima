@@ -6,7 +6,9 @@
     <!-- DEFINE A ESCALA-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title> Página inicial :3 </title>
-    <style> /*APLICANDO CSS INTERNO*/
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- OBS: VAMOS FAZER O EXTERNO, ENTAO COMENTEI -->
+    <!-- <style> /*APLICANDO CSS INTERNO*/ 
         /*SELETOR UNIVERSAL*/
         *{ 
             margin: 0;
@@ -29,9 +31,11 @@
             width: 500px;
             height: 100%;
         }
-    </style> 
+    </style>  -->
 </head>
-<body style="background-color:rgb(255, 238, 181)"> <!-- APLICANDO CSS INLINE-->
+
+<!-- <body style="background-color:rgb(255, 238, 181)"> APLICANDO CSS INLINE -->
+<body>
     Olá mundo!
     <!-- NÍVEIS-->
     <h1>Cabeçalho de nível 1</h1> <!-- É RECOMENDADO USAR APENAS UM ELEMENTO H1-->
@@ -151,6 +155,52 @@
         <dt>JavaScript</dt>
         <dd>Linguagem programação</dd>
     </dl>
+    <br> <hr> <br>
+
+    <!-- TRABALHANDO COM TABELAS -->
+    <!-- SEM SEMANTICA -->
+    <table border="1"><!-- CRIA UMA TABELA | obs: era pra ja vir uma borda sozinha, mas vamos fazer no html mesmo (o mais certo seria css. o mais certo ainda seria ela aparecer sozinha.)-->
+        <tr> <!-- NOVA LINHA-->
+            <th>Nome</th><!-- CRIA UMA CELULA DE CABEÇALHO -->
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Douglas</td> <!-- NOVA CELULA DE DADOS -->
+            <td>33</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td> 
+            <td>33</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+    <br>
+    <!-- COM SEMANTICA -->
+    <table class="tabela">
+        <thead>
+            <th class="cabecalho">Nome</th>
+            <th class="cabecalho">Telefone</th>
+            <th class="cabecalho">Cidade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="celula">Jim Kirk</td>
+                <td class="celula">5325487</td>
+                <td class="celula">Riverside</td>
+            </tr>
+            <tr>
+                <td class="celula">Queixuda</td>
+                <td class="celula">6666666</td>
+                <td class="celula">-</td>
+            </tr>
+        </tbody>
+    </table border = 1>
+
+    <table>
+
+    </table>
 
 </body>
 </html>
