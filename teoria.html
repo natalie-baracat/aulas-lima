@@ -199,8 +199,89 @@
     </table border = 1>
 
     <table>
-
+    <!-- comletar depois -->
     </table>
+    </table>
+
+    <!-- FORMULARIOS -->
+    <br><hr><br>
+    <p><marquee><b>Trabalhando com formulários</b></marquee></p>
+    <form class="formulario">
+        <label>Nome</label>
+        <input type="text"><!-- INSERE UM CAMPO DIGITAVEL DO TIPO TEXTO --> <br>
+
+        <label>Sobrenome</label>
+        <input type="text" class="input-nome"><br>
+
+        <label>Senha</label><!-- INSERE UM CAMPO DIGITAVEL DO TIPO PASSWORD -->
+        <input type="password" placeholder="Utilize símbolos e números.">
+
+        <input type="button" value="Clique aki" class="botao"> <!-- BOTAO--> <br>
+
+        <input type="checkbox" class="checar"> Gosto de D&D <!-- INSERE UMA CHECKBOX--> <br>
+        <input type="checkbox" class="checar"> Gosto de Audrey Hepburn <br>
+        <input type="checkbox" class="checar"> Gosto de Fangoria <br> 
+        <input type="checkbox" class="checar"> Gosto de Harry Houdini <br>
+        <input type="checkbox" class="checar"> Gosto de Crocket<br>
+        <input type="checkbox" class="checar"> Sei nadar<br>
+        <input type="checkbox" class="checar"> Sei dançar<br>
+        <input type="checkbox" class="checar"> Sei karate<br>
+        <input type="checkbox" class="checar"> Nunca vou conseguir<br>
+    </form><br>
+
+    <input type="color" value="#8081E5"> <!-- COR --> <br><br>
+
+    <input type="date" name="" id=""><!-- DATA --> <br><br>
+    <input type="datetime-local" name="" id=""><br><br>
+
+    <input type="email" placeholder="emaillegal@endereco.com" class="email"><!-- EMAIL --> <br><br>
+    
+    <input type="file"><!-- ARQUIVO -->
+
+    <!--OBS: A PARTIR DAQUI EU COPIEI DA JULIANA, PORQUE FUI EMBORA MAIS CEDO -->
+
+    <select> <!-- input de seleção -->
+        <!-- o atributo value enviará o valor do item selecionado para o servidor -->
+        <option value="" selected> selecione escolaridade</option>
+        <option value="primeiro médio">1ºgrau</option>
+        <option value="segundo médio">2ºgrau</option>
+        <option value="terceiro médio">3ºgrau</option>
+    </select>
+
+    <!-- input de seleçao com ESTILIZAÇAO -->
+    <select class="seleção">
+        <option value="" selected> selecione escolaridade</option>
+        <option value="primeiro médio">1ºgrau</option>
+        <option value="segundo médio">2ºgrau</option>
+        <option value="terceiro médio">3ºgrau</option>
+    </select>
+    
+    <p>Radio button</p> <!-- criando input radio button -->
+    <input type="radio" name="tamanho">Pequeno
+    <input type="radio" name="tamanho" checked>Médio
+    <input type="radio" name="tamanho">Grande
+    <input type="radio" name="tamanho">Outro
+    <br>
+    <p>Radio button</p>
+    <input type="radio" name="tamanho" class="radio">Pequeno
+    <input type="radio" name="tamanho" class="radio" checked>Médio
+    <input type="radio" name="tamanho" class="radio">Grande
+    <input type="radio" name="tamanho" class="radio">Outro
+
+    <!-- Cria um grupo de componentes de formulario -->
+    <fieldset>
+    <legend>Descrição</legend>
+    <textarea name="" id="">
+
+    </textarea>
+    </fieldset>
+
+    <!-- botão de enviar -->
+    <input type="submit" value="enviar">
+
+    <!-- botão de limpar ou resetar -->
+    <input type="reset" value="Limpar">
+    </form>
 
 </body>
 </html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(43, 43, 130, 1) 35%, rgba(41, 236, 255, 1) 100%); */
+    background: url(https://64.media.tumblr.com/d27a4e27a5bff360e6ec831c3fa05123/4b790494be3024f0-07/s1280x1920/5fda289a8791b20a7eea934b5c2fca6b2d2d3db6.pnj);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    width: 300px;
+    border-radius: 2px;
+    margin: 0 auto; /* centraliza*/
+    margin-top: 200px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.064);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 5px 5px 0 rgba(56, 66, 71, 0.11); /* POSIÇAO X, POSIÇAO Y, BLUR, E RGBA PARA OPACIDADE*/
+}
+
+.formCadastro {
+    margin-top: 70px;
+}
+
+.rotulos {
+    margin: 0;
+    margin-left: 64.9px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+input {
+    appearance: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 1px;
+    border-radius: 2px;
+
+}
+
+.data {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.botao {
+    cursor: pointer;
+}
+
+h3 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}

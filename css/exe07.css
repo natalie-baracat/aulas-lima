@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(84, 76, 106, 0.166);
+}
+
+th, td {
+    border: 2px solid #26a047;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+.imagem {
+    width: 100px;
+    height: 100%;
+}
+
+.celulaCor {
+    background-color: #26a047;
+    color: #FFFFFF;
+}
+
+.linkComprar {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
