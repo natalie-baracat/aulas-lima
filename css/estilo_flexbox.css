@@ -1,22 +1,196 @@
 .div1 {
-    background-color: rgb(201, 27, 120);
+    background-color: rgb(201, 47, 47);
 }
 
 .div2 {
-    background-color: rgb(124, 46, 197);
+    background-color: rgb(255, 253, 121);
 }
 
 .div3 {
-    background-color: rgb(29, 12, 92);
+    background-color: rgb(81, 90, 172);
 }
 
 .container {
     border: 2px solid darkgoldenrod; /*so pra enxergarmos melhor*/
     max-width: 400px;/*limita o tamanho do elemento  */
     margin: 0 auto;
-    display: flex; /*os itens ficam lado a lado*/
+    display: flex; /*define o tamanho do elemento. os itens ficam lado a lado*/
 }
 
 .item {
     background-color: royalblue ;
+    margin: 5px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column; /*DEFINE A DIREÇAO DOS ELEMENTOS*/
+}
+
+.flex > div > img {
+    height: 100px;
+    width: 100px;
+}
+
+.div-coluna {
+    height: 100px;
+    width: 100px;
+    background-color:brown
+}
+
+.secao {
+    display: flex;
+    flex-direction: row; /*ja é row por padrao, so to colocando pra garantir*/
+    height: 600px;
+    background-color: crimson;
+    gap: 10px; /* espaçamento*/
+    /* quebra os elementos para outra linha  */
+    flex-wrap: wrap;
+}
+
+.secao-imagem {
+    height: 100px;
+    width: 100px;
+}
+
+.alinhar-esquerda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.alinhar-centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alinhar-direita {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*coloca um elemento em cada ponta e espaça os outros igualente ao centro*/
+
+}
+
+.alinhar-redor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alinhar-coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhar-itens-centro {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: gold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    text-align: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 500px;
+
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(48, 4, 80, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    margin: 13px;
+    
+    flex: 0 0 auto; /*evita que os cards encolham ou se ajustem automaticamente */
+}
+
+.card:hover{
+    /* ao passar o cursor em cima, muda a posição do card */
+    transform: scale(1.1);
+    box-shadow: 0 0 7px #ffe431;
+}
+
+.cabecalho-card {
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo-card {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subtitulo-card {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+.imagem-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-card > img {
+    max-width: 100%; /*mantem o limite max do tamanho do container*/
+    height: 150px /* mantem a proporcao da imagem */
+}
+
+.imagem-card > figcaption {
+    font-size: 0.8rem;
+    padding: 6px;
+    text-align: center;
+    color: #555;
+    height: auto;
+}
+
+.imagem-card > figcaption > p{
+    width: 100%;
+}
+
+.conteudo-card {
+    padding: 10px;
+    background-color: #3a1010(248, 248, 248);
+    height: 70px
+
+}
+.rodape-card {
+    background-color: #43b3c744;
+    text-align: center;
+}
+
+.botao-card {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #759ceb;
+    border-radius: 4px;
+    padding: 5px 6px;
+    display: inline-block ; /* permite definir largura e altura, alinha elementos na mesma linha */
+}
+
+.botao-card:hover {
+    background-color: #eb75bc;
 }

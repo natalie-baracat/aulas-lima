@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./css/estilo_flexbox.css" />
+  </head>
+  <body>
+    <!-- curiosidade: 
+    - p e h sao elememtos de bloco, pois ocupam o espaço inteiro disponível.
+    - label e input sao elementos inline, pois ocupam apenas o espaço do "texto" -->
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+      <!-- divs sao genericas, diferente de header, footer, nav etc.-->
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra.</p>
+      <p>Londres tem 8 milhões de habitantes.</p>
+    </div>
+    <div class="div2">
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra.</p>
+      <p>Londres tem 8 milhões de habitantes.</p>
+    </div>
+    <div class="div3">
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra.</p>
+      <p>Londres tem 8 milhões de habitantes.</p>
+    </div>
+    <h1>Trabalhando com Flexbox</h1>
+    <p>
+      Utilizamos o Flexbox para posicionar os elementos de uma linha ou coluna
+      de forma dinâmica
+    </p>
+    <section class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+    </section>
+    <p>Flex com mais elementos, preenchendo a largura da tela</p>
+    <section class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+      <div class="item">Item 5</div>
+      <div class="item">Item 6</div>
+      <div class="item">Item 7</div>
+      <div class="item">Item 8</div>
+      <div class="item">Item 9</div>
+    </section>
+
+    <p>Flex direction - alterando a direção do elemento.</p>
+    <section class="flex">
+      <div class="item">
+        <img
+          src="https://i.pinimg.com/564x/62/90/fb/6290fbeeb964e962f4dd596dc788fb00.jpg"
+        />
+        <p>BILL CIPHER DORITO...</p>
+      </div>
+      <div class="item">
+        <img
+          src="https://i.pinimg.com/originals/38/f1/0d/38f10d41f874450799a1ef493c700506.gif"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="https://i.pinimg.com/564x/94/4f/ba/944fbab30cf7deea556ce3294a110d1a.jpg"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="https://i.pinimg.com/564x/44/5c/55/445c55a143ab87ef321d884a44e6c2d6.jpg"
+        />
+      </div>
+    </section>
+
+    <p>
+      Flex-Wrap — faz a quebra do elemento quando não há mais espaço na tela
+    </p>
+    <section class="secao">
+      <img
+        src="https://i.pinimg.com/originals/10/e2/cb/10e2cbf605f4706204e0674b7e503315.gif"
+        class="secao-imagem"
+      />
+      <img
+        src="http://images.jellymuffin.com/icons/cartoons/images/icon070.gif"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/564x/2a/f4/47/2af447f16823afe4a2096546b7768be0.jpg"
+        class="secao-imagem"
+      />
+      <img
+        src="https://64.media.tumblr.com/2c330a6af52fd3807c15c6884729607a/312f881cff2208e6-f1/s100x200/479dabcd9b8310088a2cff64b7d1f2d1e56a2b51.gifv"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/originals/52/75/55/527555fde19c6bcda426a49899312582.gif"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.ibb.co/WxFF6zZ/256651f6g6zbg3pi.gif"
+        class="secao-imagem"
+      />
+      <img
+        src="https://media.tenor.com/EhT2TyQg4g8AAAAM/ford-pines-bill-cipher.gif"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/originals/2e/03/c5/2e03c5579088239bf644e7dbc93f59bd.gif"
+        class="secao-imagem"
+      />
+    </section>
+
+    <p>
+      Justify-content — alinha os itens flex no container de acordo com a
+      direcao
+    </p>
+    <section class="alinhar-esquerda">
+      <img
+        src="https://i.pinimg.com/564x/da/85/52/da85527a2048d4a185c3c71b48cf56b0.jpg"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/564x/89/1a/80/891a8027259867303a7863cf88398574.jpg"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/564x/00/b5/17/00b5170ff683eebb547a9731e303c70a.jpg"
+        class="secao-imagem"
+      />
+    </section>
+
+    <section class="alinhar-centro">
+      <img
+        src="https://i.pinimg.com/564x/e8/41/00/e841000d8265aa40a2ce60dc9fb8cb94.jpg"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/564x/1e/b2/b8/1eb2b8aaff38d40ab0650edb8042e52e.jpg"
+        class="secao-imagem"
+      />
+      <img
+        src="https://i.pinimg.com/originals/1b/ea/0c/1bea0c08ee1267f2bbd47729fd3fa4d4.gif"
+        class="secao-imagem"
+      />
+    </section>
+
+    <section class="alinhar-direita">
+      <img
+        src="https://i.pinimg.com/564x/e5/2a/f8/e52af86f9911833a2fe045c7f2dbb472.jpg"
+        class="secao-imagem"
+      />
+      <img src="https://i.pinimg.com/originals/0c/7e/5b/0c7e5b0df7ac7b43ec957fddcc9ed67e.gif" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+    </section>
+
+    <section class="alinhar-entre">
+      <img src="https://i.pinimg.com/originals/4e/90/9f/4e909f6fad578e82731f77266c4b998b.gif" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+    </section>
+
+    <section class="alinhar-redor">
+      <img src="" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+    </section>
+
+    <section class="alinhar-coluna">
+      <img src="" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+      <img src="" class="secao-imagem" />
+    </section>
+
+    <section class="alinhar-itens-centro">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+    </section>
+
+    <p>Cards usando div</p>
+    <section class="container-card">
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">Vaporeon</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/564x/31/ff/17/31ff17bc5dd6ed84b263fae04a10c150.jpg">
+          <figcaption>Vaporeon (acima) é um Pokémon do tipo aquático. Muito fofinho :3</figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Vaporeon é uma evolução de Eevee. Forte contra 🔥, 🪨, ⛰️.
+            Não sei nada sobre ele. Coloquei porque <i>ela</i> gosta.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+
+      <article class="card">
+        <header class="cabecario-card">
+          <h2 class="titulo-card">Pokedéx</h2>
+          <p class="subtitulo-card">???</p>
+        </header>
+        <figure class="imagem-card">
+          <img src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif">
+          <figcaption>BILL CIPHER, Demônio dos Sonh- Espera, ele não é um Pokem-<i>[gritos de desespero]</i></figcaption>
+        </figure>
+        <div class="conteudo-card">
+          <p>
+            Ora, orA, ora, ORa, ORA. Parece que um HUMano acabou ME ColocAndo no mEio deSses BIchos.
+          </p>
+        </div>
+        <footer class="rodape-card">
+          <a href="" class="botao-card">Saiba mais</a>
+        </footer>
+      </article>
+    </section>
+  </body>
+</html>
