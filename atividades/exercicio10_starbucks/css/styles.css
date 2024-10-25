@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url(../font/SoDoSans-SemiBold.ttf) format(ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url(../font/SoDoSans-Regular.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    /* zerando tudo */
+    padding: 0;
+    box-sizing: border-box;
+    /* assegura que padding e margin sejam incluidos nas dimensoes totais do elemento */
+}
+
+body {
+    font-family: 'SoDo Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.barra-nav {
+    background-color: white;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px rgba(72, 72, 72, 0.652);
+    z-index: ;
+}
+
+.logo {
+    margin: 0 40px 0 0;
+}
+
+.lista-diretorio {
+    display: flex;
+    text-decoration: none;
+}
+
+.diretorio {
+    text-decoration: none;
+    color: #000000DE;
+    padding: 40px 0px;
+    justify-content: center;
+}
+
+li {
+    padding: 0 0 0 24PX;
+    text-decoration: none;
+    list-style: none;
+}
+
+.barra-nav-direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.barra-nav-direita > a {
+    font-size: 14px;
+}
+
+.barra-nav-esquerda {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    margin-bottom: 32px;
+    z-index: -1;
+}
+
+.container {
+    margin: 0 42.4;
+    color: #1E3932;
+}
+
+.card {
+    background-color: #D4E9E2;
+    margin: 0 0 32px;
+    padding: 32px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-texto-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+    margin: 0 32px;
+    align-items: center;
+}
+
+.titulo-card {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0 0 24px;
+}
+
+.texto-card {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 0;
+    max-width: 880px;
+    letter-spacing: -.01rem;
+}
+
+.saiba-mais {
+    margin: 32px 0 0;
+    padding: 7px 16px;
+    border: solid #1E3932 1.5px;
+    color: #1E3932;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 16px;
+    max-width: 120px;
+}
+
+.card-img {
+    background-color: #D4E9E2 ;
+    display: flex;
+    /* margin: 0 0 32px; */
+    /* padding: 32px 48px; */
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* .card-img > figure {
+    display: flex;
+    justify-content: flex-end;
+} */

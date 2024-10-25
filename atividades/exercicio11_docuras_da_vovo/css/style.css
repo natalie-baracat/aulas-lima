@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 70px;
+    object-fit: cover;
+}
+
+.marrom {
+    color: #674d44
+}
+
+.carousel-item img {
+    width: 550px;
+    object-fit: cover;
+}
+
+footer {
+    box-shadow: 0 -5px 20px #b8b8b870;
+}
