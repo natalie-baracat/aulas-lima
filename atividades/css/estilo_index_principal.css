@@ -1,0 +1,42 @@
+a:hover {
+    color: #ffffff9e !important;
+}
+
+/* .titulo {
+
+} */
+
+.navbar {
+    box-shadow: 0px 0px 15px 5px #2222229e !important;
+}
+
+.cabecalho {
+    max-width: 1200px;
+}
+
+.cabecalho h1{
+    font-size: 50px;
+}
+
+.cabecalho img{
+    width: 300px;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+main {
+    max-width: 1240px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fundo {
+    background-image: url(https://64.media.tumblr.com/9359290bb1237ec5dc63cf8d9ff36680/0c52bd632d38d027-25/s100x200/1d468db028db24841774180b70383547bec5cdd1.gifv);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: fill;
+}
