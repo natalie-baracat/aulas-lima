@@ -7,18 +7,18 @@ a:hover {
 } */
 
 .navbar {
-    box-shadow: 0px 0px 15px 5px #2222229e !important;
+    box-shadow: 0px 0px 10px 5px #7272729e !important;
 }
 
 .cabecalho {
     max-width: 1200px;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     font-size: 50px;
 }
 
-.cabecalho img{
+.cabecalho img {
     width: 300px;
     object-fit: contain;
 }
@@ -29,14 +29,39 @@ h2 {
 
 main {
     max-width: 1240px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: 0 0 20px 7px #7272729e; */
+    border-radius: 0 15px 0 15px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
 }
 
 .fundo {
-    background-image: url(https://64.media.tumblr.com/9359290bb1237ec5dc63cf8d9ff36680/0c52bd632d38d027-25/s100x200/1d468db028db24841774180b70383547bec5cdd1.gifv);
+    background-image:
+        url(https://64.media.tumblr.com/9359290bb1237ec5dc63cf8d9ff36680/0c52bd632d38d027-25/s100x200/1d468db028db24841774180b70383547bec5cdd1.gifv);
+        /* background-size: cover; */
+
 }
 
 .card-img-top {
     height: 200px;
     object-fit: fill;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 15px !important;
+}
+
+.btn {
+    background-color: #9a1915 !important;
+    border-color: #e30613 !important;
+}
+
+.card {
+    border-radius: 0 15px 0 15px !important;
+}
+
+card:hover {
+    scale: ;
 }
